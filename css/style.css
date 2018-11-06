@@ -1,0 +1,657 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Montserrat:500,900");
+.uk-navbar-toggle{height:52px;width:52px;z-index:10;position:relative;}
+section{ border: 1rem solid #181e23;
+ 
+padding:0;}
+.uk-text-white{color:#fff !important;}
+.uk-alpha-700 {
+    background: #00000090;
+   ;
+}
+.hero-content {
+    color: #fffc;
+       padding: 8rem 0 12rem 0;
+    width: fit-content;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+}
+.header {
+    width: 100%;
+    position: relative;
+}
+.hero-wrap {
+   
+    height: 100%;
+    margin: auto;
+        overflow: hidden;
+    background-color: #1e88e5;
+}
+.hero-image {
+    position: absolute !important;
+    will-change: transform;
+    left: 0;
+  right:0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.3;
+    width: 100%;
+    z-index: 0;
+    filter: saturate(1.2);
+    background-repeat: no-repeat;
+opacity: .3;}
+.dzsparallaxer {
+    height: 300px;
+  position:absolute;
+    overflow: hidden;
+  }
+.uk-heading-hero {
+    font-family: "Montserrat", sans-serif;
+
+  font-size: 4.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 0 4px 1px #000000;
+    letter-spacing: 8px;
+    margin: 12px auto;
+    color: #ffffff !important;
+}
+
+.marketing{font-size: .875rem;
+    margin: 0;
+    font-weight: 500;
+    background: #ffe500;
+    letter-spacing: 0px;
+    color: #000;
+    padding: 4px 18px;}
+.subheading{    font-size: 2rem;
+  font-family: "Pacifico", cursive;
+    margin: 1rem 0 0 0;
+  letter-spacing:1px;
+    color: #ffe500;
+    text-shadow: 0 2px #000000, 0 -1px black, 1px 0 black, -1px 0 black;}
+.uk-text-outline {
+  text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000;
+}
+.speech-bubble:after {
+    position: absolute;
+    content: ' ';
+    border-right: 16px solid rgba(0, 0, 0, 0);
+    top: 50%;
+    right: 0;
+    margin: 14px 32px 0 0px;
+    border-top: 14px solid #181e23;
+    height: 0;
+    width: 0;
+}
+.profile{
+    border: 8px solid #181e23;
+    border-radius: 100%;
+    margin: auto;
+  bottom:-40px;
+  left:0;
+  right:0;
+  margin-top:1rem;
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    z-index: 15;
+    background-size: contain;
+    background-image: url(https://scontent.fagc1-1.fna.fbcdn.net/v/t1.0-9/18951509_10104825354557723_3021696985438837088_n.jpg?_nc_cat=104&oh=28e9b77955b04002f2da6c236eb1edd5&oe=5C5EB106);}
+.angle {  background-attachment: scroll;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin: auto;
+    z-index: 9;
+    position: absolute;
+    width: 100%;
+  
+    height: auto;
+    bottom:-10px;
+    text-align: center;
+     background-color:transparent;
+}
+
+.speech-bubble {
+       float: right;
+    padding: 4px 18px 3px 18px;
+    position: relative;
+    background: #181e23;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-radius: 8px;
+    margin: 0;
+    color: #fff;
+    font-size: .875rem;
+    font-weight: 600;
+}
+
+.speech-bubble-left {
+   text-align:center;
+    padding: 8px 28px 8px 28px;
+    position: relative;
+    background: #1e88e5;
+  width:fit-content;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: .75rem;
+    font-weight: 600;
+  z-index:5
+}
+
+.speech-bubble-left:after {
+    position: absolute;
+    content: " ";
+    border-left: 18px solid #0000;
+    top: 50%;
+    left: 24px;
+    margin: 14px 0 0 18px;
+    border-top: 16px solid #1e88e5;
+    height: 0;
+    width: 0;
+}
+.uk-divider-yellow {
+  border-top: 4px solid #ffe500;
+  margin: 4rem 0 8rem 0;
+     
+}
+
+line.upper {
+  stroke: #ffffff50;
+  stroke-width: 4px;
+}
+line.lower {
+  stroke: #ffe500;
+  stroke-width: 18px;
+}
+polygon.one {
+  fill: #181e23;
+}
+polygon.two {
+  fill: #fff;
+}
+#about {
+    background-image: url(https://demo.yootheme.com/themes/joomla/2018/summit/images/yootheme/section-bg-large.svg);
+    background-size: auto;
+    background-position: 100% bottom;
+    background-repeat: no-repeat;
+    padding: 8rem 0;
+}
+
+.infocard {
+  min-width:340px;
+  width:100%;
+  background-color: #fff;
+  background-position: 80% 65%;
+  border-radius: 0.25rem;
+  border: 1px solid #99999975;
+  background-repeat: no-repeat;
+  position: relative;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
+    0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+.infocard-title {
+  margin: 1rem 0;
+  display: flex;
+  font-size: 1.25em;
+  flex-direction: column;
+  justify-content: center;
+  border: 4px solid #1e88e5;
+  text-align: center;
+  padding: 1rem 0 1.25rem 0;
+}
+.infocard-title p {
+  background-color: #fff;
+  align-self: center;
+  text-align: center;
+  padding: 0 8px;
+  position: absolute;
+  font-size: 0.75rem;
+  margin-top: 36px;
+}
+.entry {
+  height: 3rem;
+  align-items: center;
+  display: flex;
+}
+.entry h5 {
+  letter-spacing: -1px;
+  font-variant: all-small-caps;
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #181e23cc;
+}
+.entry i {
+  margin-right: 6px;
+  color: #1e88e5;
+  font-size: 0.875rem !important;
+}
+.entry .list-content {
+  margin-left: 6px;
+  font-size: 0.8rem;
+  color: #181e23cc;
+}
+.blue-text {
+  color: #1e88e5;
+}
+.shadow {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
+    0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+.logo {
+  color: #f9f9f9;
+  transition: all 1s ease-in-out;
+  background-color: #181e23;
+  height: 72px !important;
+}
+.logo:hover {
+  color: #1e88e5 !important;
+  animation: rotate 1s 1;
+  animation-direction: regular;
+}
+.section-text {
+  padding: 4rem 0;
+  position: relative;
+  margin: auto;
+}
+.section-heading {
+        font-size: 3rem;
+    padding-top: 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1.3;
+  
+}
+strong {
+      letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #1e88e5;}
+
+.section-subheading {
+    font-size: 1.5rem; 
+    font-weight: 400;
+   
+ 
+}
+.section-subheading > bold {
+    color: #1e88e5;
+    letter-spacing: 3px;
+  font-weight: 900;
+      font-style:italic;
+}
+b{font-weight:900;}
+.merkle-team{margin:auto;width:100%;height:auto;border-radius:.25rem;background-repeat:no-repeat;position:relative;background-position:25% 80%;background-size:cover; border:8px solid #181e23;}
+.about-sub{font-size:1.2rem;letter-spacing:1px;max-width:700px;}
+.cursive {
+  font-family: "Pacifico", cursive;
+}
+.heading {
+  font-family: "Montserrat", sans-serif;
+}
+.uk-button-resume {
+  width: 100%;
+  padding: 12px 0;
+  color: #fff;
+  margin-top: 12px;
+  background-color: #1e88e5;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  text-align: center;
+  transition: all 0.25s ease-in-out;
+}
+.uk-button-resume:hover {
+  letter-spacing: 1px;
+  background-color: #1976d2;
+}
+.uk-button-resume i {
+  margin: 8px;
+  font-size: 18px;
+}
+.cta {
+  width: 45%;
+}
+.uk-section-muted {
+ 
+  background-color: #eceff1;
+}
+.mhdm {
+  background-image: url(http://www.chipwalter.com/matt-hoff/mh-dm.jpg);
+  margin: auto;
+   
+}
+.merkle {
+  background-image: url(http://www.chipwalter.com/matt-hoff/merkle-logo.jpg);
+  margin: auto;
+  width:260px !important;
+}
+
+.seer {
+  background-image: url(http://www.chipwalter.com/matt-hoff/seer-logo.jpg);
+  margin: auto;
+ width:220px !important;
+}
+
+.tcf {
+  background-image: url(http://www.chipwalter.com/matt-hoff/content-factory-logo.jpg);
+  margin: auto;
+   width:180px !important;
+}
+
+.wmg {
+  background-image: url(http://www.chipwalter.com/matt-hoff/warner-music-logo.jpg);
+  margin: auto;
+  width:180px !important;
+}
+
+.uk-slider-container {
+  overflow: hidden;
+  border-left: 1px solid #00000075;
+  border-right: 1px solid #00000075;
+}
+.dots {
+    position: absolute;
+    z-index: 10;
+    left: 0%;
+  right: 0%;
+
+background-color:#181e23;padding:2rem 0;width:100%;}
+.arrow-left {
+  position: relative;
+  left: 0;
+  color: #181e23cc;
+}
+.uk-overlay-dark {
+    background: #000000f5;
+}
+.uk-overlay-primary {
+    background: #00000060;
+}
+.arrow-right {
+  position: relative;
+  right: 0;
+  color: #181e23cc;
+}
+.pitt {    background-size: cover;
+    filter: saturate(1.25)contrast(1.15);
+    background-image: url(http://www.chipwalter.com/matt-hoff/pitt.jpg);
+    background-position: 60% 30%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.uk-background-dark{background-color:#181e23;}
+#education {
+    
+    font-size: 14px;
+}
+
+#work{padding:6rem 0;}
+.job-card{border-radius: .25rem;
+   height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    transition: all .25s ease-in-out;}
+
+.uk-job-header {
+      height: 80px;
+    padding: 16px;
+    border-bottom: 1px solid #00000025;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.job-content{text-align: center;
+    padding: 12px;}
+.job-name{margin: 0;
+    color: #000a;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.job-position{    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111c;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 1.3px;}
+.job-date{margin: 0;
+  font-size:1rem;
+    letter-spacing: -.25px;
+    color: #00000080;}
+.job-company {
+  margin: 0;
+    padding: 2rem 0 .25rem 0;
+    font-size: .9rem;
+}
+.job-image {
+      background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 90%;
+    max-width: 320px;
+    height: 100px;
+}
+
+.uk-card-default.uk-card-hover:hover {
+    background-color: #fff;
+    transform: translateY(-4px);
+    box-shadow: 0 18px 28px -6px rgba(0,0,0,0.2), 0 16px 12px -8px rgba(0,0,0,0.18);
+}
+
+.subnav {
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0 0 0;
+}
+.subnav>li>a>i {
+    margin-right: 2px;
+  font-size: .8rem;
+}
+.subnav>li a{font-size:.75rem;text-transform:capitalize !important;}
+.impaqt {
+    background-image: url(http://www.chipwalter.com/matt-hoff/impaqt.jpg);
+  margin: auto;}
+.iphone{width:100%;max-width:280px;height:auto;}
+.menu-link {
+    font-size: 1.2rem !important;
+    line-height: 2.2!important;
+    color:#181e23aa !important;
+    text-transform: capitalize !important;
+    position: relative;
+
+    text-align: left;
+    margin-left: .5rem;
+    font-variant-caps: all-small-caps !important;
+    font-family: "Montserrat", sans-serif;
+    transition: all .75s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.menu-link:after {
+    content: "🠐";
+    position: absolute;
+    font-size: 3rem;
+    top: -2rem;
+    right: 0;
+    color: #0000;
+    transition: all .6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.menu-link:hover:after {
+    color: #1e88e5;
+    transform: translateX(3rem)scale(1.25);
+    right: 35%;
+  height:auto;
+    transition-delay: .2s;
+}
+.menu-link:hover {
+    color: #181e23 !important;
+    padding-left: 18px;
+    letter-spacing: 2px;
+    width: 100%;
+    background-color:#99999920;
+    border-left: 6px solid #1e88e5;
+
+}
+.uk-offcanvas-bar {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  width:270px;
+    bottom: 0;
+    left: 0;
+  background-color:#fffffff5;
+ 
+    color: #222d;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    transform: translateX(-100%);
+}
+.close{color:#222 !important;transition:color .2s ease-in-out;}
+.close:hover{color:#1e88e5 !important;}
+@media (max-width: 768px) {
+  section{ border: .25rem solid #181e23;
+padding:0;}
+  body {
+    font-size: 14px;
+  }
+  .job-position{    font-size: 1rem;
+    font-weight: 500;
+  letter-spacing:0;}
+  .job-name{margin: 0;
+    color: #000a;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: .875rem;
+    font-weight: 400;
+}
+  .job-nav>ul>li>a>i {
+    margin-right: 3px;
+}
+.job-nav>ul>li>a{font-size:.7rem;text-transform:capitalize;}
+  .section-heading {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0;
+   
+    font-size: 1.25rem;
+ 
+  }
+  .section-subheading {
+    font-size: 1rem;
+  line-height:1.25;}
+  strong {
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #1e88e5;
+  }
+  .nav-link {
+    font-size: 0.75rem !important;
+    width: fit-content !important;
+    padding: 0 8px !important;
+  }
+
+  .angle {
+    bottom: 0;
+  }
+  .uk-divider-yellow {
+  border-top: 4px solid #ffe500;
+  margin: 2rem auto;
+}
+}
+@media (min-width: 320px) {
+  .uk-offcanvas-bar {width:280px;
+    padding: 0px !important;}
+}
+@media (min-width: 375px) {
+  .uk-offcanvas-bar {width:335px;padding:8px;}}
+@media (min-width: 420px) {
+  .uk-offcanvas-bar {width:400px;padding:12px;}}
+@media (min-width: 1024px) {
+  .infocard{right:-40px;}
+  .uk-offcanvas-bar {width:400px}
+  .padding-lg{padding:60px;}
+  }
+
+
+.hamburger {
+  top:50%;
+  left:25%;
+  right:25%;
+  width: 30px;
+  height: 2px;
+  background: #222c;
+  position: absolute;
+  transition: .35s;
+}
+
+.hamburger:before {
+  top: -8px;
+}
+
+.hamburger:after {
+  top: 8px;
+}
+
+.icon {
+  z-index:100;
+  box-shadow: 0 6px 5px -2px #00000060;
+  border-radius:.1rem;
+  background-color:#eaeaeaaa;
+  border:2px solid #222222aa;
+  right:1.5rem;
+  top:1.5rem;
+  padding: 22px 28px;
+  position:absolute;
+  
+  cursor: pointer;
+  transition:all .2s ease-in-out;
+}
+.icon:hover{  background-color:#ffffffe9;
+  border:2px solid #222d; box-shadow: 0 1px 1px -1px #00000080;}
+.icon:active{transform:scale(.95);}
+.hamburger:before,
+.hamburger:after {
+  content: '';
+  position:absolute;
+  width: 30px;
+  height: 2px;
+  background:#222c;
+
+  transition:0.25s;
+}
+
+.icon.uk-active .hamburger {
+  background:rgba(0,0,0,0);
+ 
+}
+
+.icon.uk-active .hamburger:before {
+  top: 0;
+  transform:rotate(135deg);
+ 
+}
+
+.icon.uk-active .hamburger:after {
+  top: 0;
+  transform:rotate(225deg);
+
+}
+
+
+
